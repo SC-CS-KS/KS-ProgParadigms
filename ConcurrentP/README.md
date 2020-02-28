@@ -11,10 +11,9 @@
 
 * [多线程 & 协程](Muti-Th-vs-Coroutine.md)
 
+## [Concurrent by default (默认支持并发）]()
+
+代表语言 ：ANI, Plaid
+
 ## Concurrent Control
-
-
-
-## Implement
-* [Java 多线程并发](https://github.com/SunnnyChan/sc.study-notes/tree/master/computer-science/language/java/java-paradigm/java-concurrency)
 
