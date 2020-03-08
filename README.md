@@ -21,3 +21,5 @@ Table of Contents
    * [<a href="">Knowledge-based programming (基于知识的编程)</a>](#knowledge-based-programming-基于知识的编程)
    * [<a href="SymbolicP/README.md">Symbolic programming (符号式编程)</a>](#symbolic-programming-符号式编程)
 
+
+![](_pic/ProgParadigms.JPG)
