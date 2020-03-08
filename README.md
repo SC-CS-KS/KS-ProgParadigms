@@ -2,6 +2,8 @@
 
 [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
+![](_pic/ProgParadigms.JPG)
+
 Table of Contents
 =================
 
@@ -22,4 +24,3 @@ Table of Contents
    * [<a href="SymbolicP/README.md">Symbolic programming (符号式编程)</a>](#symbolic-programming-符号式编程)
 
 
-![](_pic/ProgParadigms.JPG)
