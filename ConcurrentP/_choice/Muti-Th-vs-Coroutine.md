@@ -33,7 +33,7 @@ Akka 就是Java世界里对“原教旨OO“的实现，很有特色。
 的确，用NIO + completedFuture/handler/lambda不如async+await写起来舒服，但起码是可以干活的。
 
 * JDBC
-```md
+
 如果真的要较真Java的NIO用于业务的问题，其核心痛点应该是 JDBC。
 JDBC 诞生了几十年，必须使用Blocking IO的DB交互协议。
 其上承载了Java庞大的生态和业务逻辑。Java要改自己的编程方式，必须得重新设计和实现JDBC，
