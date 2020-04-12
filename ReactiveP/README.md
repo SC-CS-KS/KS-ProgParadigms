@@ -2,8 +2,7 @@
 
 ## [What Is Reactive Programming ?](WhatIs.md)
 
-## Model
-### 标准
+## 特性
 * Composable（可组合）
 * Lazy（惰性执行）
 * Reusable（可复用）
@@ -13,12 +12,12 @@
 * [Backpressure（回压）](BackPressure.md)
 * Operator fusion（操作融合）
 
-## Design
+## 理论
 * [Event](Event.md)
 * [Reactive Streams](Reactive-Streams.md)
 
 * Observable 可被观察的事物，也就是事件和数据流
-* Observer 观察流的事物
+* Observer 观察者
 * Operator 操作符，对流进行连接和过滤等等操作的事物
 ```java
 Observable<String> myStrings =
@@ -26,14 +25,14 @@ Observable<String> myStrings =
     myStrings.map(s -> s.length())
         .subscribe(s -> System.out.println(s));
 ```
-```md
-myStrings 就是Observable
-map(s -> s.length()) 就是Operator
-subscribe(s -> System.out.println(s)) 就是Observer
-```
 
-## Implement
-```md
+myStrings 就是Observable  
+map(s -> s.length()) 就是Operator  
+subscribe(s -> System.out.println(s)) 就是Observer  
+
+
+## 实现
+
 Reactor
 RxJava
 Java9 Flow API
@@ -43,11 +42,5 @@ Vert.x
 MongoDB
 Slick
 Ratpack
-```
+
 ![](_pic/ractive-compare.png)
-
-## [RSocket - Application protocol providing Reactive Streams semantics](http://rsocket.io/)
-
-## Reference
-* [Why Reactive?](https://github.com/SunnnyChan/sc.ebooks)
-* [Reactive Programming 一种技术，各自表述](https://yq.aliyun.com/articles/617466)
