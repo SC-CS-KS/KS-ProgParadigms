@@ -2,7 +2,7 @@
 
 提供了一套非阻塞背压的异步流处理标准，主要应用在JVM、JavaScript和网络协议工作中。
 通俗来说，它定义了一套响应式编程的标准。
-在Java中，有4个Reactive Streams API。
+在Java中，有4个Reactive Streams API。  
 
 ## 目标
 
